@@ -1,0 +1,4 @@
+---
+# tasks file for roles/hive
+- include: install.yml tags=hive,install
+- include: config.yml tags=hive,config
